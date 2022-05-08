@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+</head>
+
+<body>
+	<header class="media header">
+		<h1 class="header_titulo">
+			ITSE
+		</h1>
+		<br />
+		<p class="header_texto">
+			Unidad de Investigación
+		</p>
+	</header>
+	<nav class="nav" id="nav">
+		<div class="nav__container">
+			<img src="img/icon.png" alt="logo" class="nav__logo" id="nav__logo">
+			<img src="assets/bx-menu.svg" alt="" class="nav__img" id="nav__img">
+			<div class="back__menu" id="back__menu"></div>
+			<div class="nav__menu" id="nav__menu">
+				<div class="nav__grupo">
+					<a href="#" class="nav__item" id="menu">
+						Inicio
+					</a>
+					<span class="barra"></span>
+				</div>
+				<div class="nav__grupo">
+					<a href="#equipo" class="nav__item">
+						Nuestro Equipo
+					</a>
+					<span class="barra"></span>
+				</div>
+				<div class="nav__grupo">
+					<a href="#actividades" class="nav__item">
+						Actividades
+					</a>
+					<span class="barra"></span>
+				</div>
+				<div class="nav__grupo">
+					<a href="404.html" class="nav__item" target="_blank">
+						Congresos
+					</a>
+					<span class="barra"></span>
+				</div>
+				<div class="nav__grupo">
+					<a href="#form" class="nav__item">
+						Contáctanos
+					</a>
+					<span class="barra"></span>
+				</div>
+			</div>
+	</nav>
+	<h2 class="equipo_titulo" id="equipo">
+		Nuestro Equipo
+	</h2>
+	<section class="media equipo">
+		<figure class="equipo_partner">
+			<img class="equipo_img" src="img/partner1.jpg" alt="">
+			<h2 class="equipo_nombre">
+				Partner 1
+			</h2>
+			<figcaption class="equipo_caption">
+				Excepturi sequi quia in magni velit alias cumque omnis, soluta saepe pariatur vero est ipsam reiciendis
+				modi praesentium quam aliquid blanditiis fugit.
+			</figcaption>
+		</figure>
+		<figure class="equipo_partner">
+			<img class="equipo_img" src="img/partner2.jpg" alt="">
+			<h2 class="equipo_nombre">
+				Partner 2
+			</h2>
+			<figcaption class="equipo_caption">
+				Excepturi sequi quia in magni velit alias cumque omnis, soluta saepe pariatur vero est ipsam reiciendis
+				modi praesentium quam aliquid blanditiis fugit.
+			</figcaption>
+		</figure>
+		<figure class="equipo_partner">
+			<img class="equipo_img" src="img/partner3.jpg" alt="">
+			<h2 class="equipo_nombre">
+				Partner 3
+			</h2>
+			<figcaption class="equipo_caption">
+				Excepturi sequi quia in magni velit alias cumque omnis, soluta saepe pariatur vero est ipsam reiciendis
+				modi praesentium quam aliquid blanditiis fugit.
+			</figcaption>
+		</figure>
+	</section>
+	<section class="actividades_bg" id="actividades">
+		<h2 class="actividades_titulo">
+			Actividades
+		</h2>
+		<div class="media actividades_divisor">
+			<article class="tarjetas">
+				<figure>
+					<img src="img/investigacion.jpg" alt="investigacion-img">
+				</figure>
+				<div class="tarjetas_contenido">
+					<h3>
+						Investigación Científica
+					</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptates deleniti placeat
+						expedita. Corrupti eligendi reiciendis beatae quae cum odio.
+					</p>
+					<a href="#">
+						Saber más
+					</a>
+				</div>
+			</article>
+			<article class="tarjetas">
+				<figure>
+					<img src="img/congreso.png" alt="investigacion-img">
+				</figure>
+				<div class="tarjetas_contenido">
+					<h3>
+						Congresos
+					</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptates deleniti placeat
+						expedita. Corrupti eligendi reiciendis beatae quae cum odio.
+					</p>
+					<a href="#">
+						Saber más
+					</a>
+				</div>
+			</article>
+			<article class="tarjetas">
+				<figure>
+					<img src="img/revistas2.jpeg" alt="investigacion-img">
+				</figure>
+				<div class="tarjetas_contenido">
+					<h3>
+						Revistas
+					</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptates deleniti placeat
+						expedita. Corrupti eligendi reiciendis beatae quae cum odio.
+					</p>
+					<a href="#">
+						Saber más
+					</a>
+				</div>
+			</article>
+		</div>
+	</section>
+	<section class="media form_bg">
+		<form action="form.php" method="POST" id="form">
+			<div class="form">
+				<h1 class="form_title">
+					Suscríbete!
+				</h1>
+				<div class="form_inputs">
+					<input type="text" name="name" id="name" class="input_form" required><span
+						class="form_barra"></span>
+					<label class="label_form" for="">Nombre</label>
+				</div>
+				<div class="form_inputs">
+					<input type="email" name="email" id="email" class="input_form" required><span
+						class="form_barra"></span>
+					<label class="label_form" for="">E-mail</label>
+				</div>
+				<button type="submit">
+					Enviar
+				</button>
+			</div>
+		</form>
+	</section>
+	<footer>
+		<div class="footer_contenedor">
+			<img src="img/icon.png" alt="" class="footer_logo">
+			<span class="footer_info">+593 97 881 8371</span>
+			<span class="footer_info">a.e.coronel.e@gmail.com</span>
+		</div>
+		<div class="footer_menus">
+			<div class="footer_contenido">
+				<span class="footer_menu_titulo">Menu</span>
+				<a href="#nav" class="footer_menu_item">Inicio</a>
+				<a href="#equipo" class="footer_menu_item">Nuestro Equipo</a>
+				<a href="#actividades" class="footer_menu_item">Actividades</a>
+				<a href="404.html" class="footer_menu_item" target="_blank">Congresos</a>
+				<a href="#form" class="footer_menu_item">Contáctanos</a>
+			</div>
+			<div class="footer_contenido">
+				<span class="footer_menu_titulo">Asunto Legal</span>
+				<a href="404.html" class="footer_menu_item" target="_blank">Política de Privacidad</a>
+				<a href="404.html" class="footer_menu_item" target="_blank">Cookies</a>
+				<a href="404.html" class="footer_menu_item" target="_blank">Términos y Condiciones</a>
+			</div>
+			<div class="footer_contenido">
+				<span class="footer_menu_titulo">Síguenos</span>
+				<div class="footer_contenedor_social">
+					<a href="#" class="fb"></a>
+					<a href="#" class="tw"></a>
+					<a href="#" class="ig"></a>
+				</div>
+			</div>
+		</div>
+		<div class="footer_copyright">
+			<span class="copyright">&copy;2022 | itse.com</span </div>
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>
