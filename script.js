@@ -6,12 +6,12 @@ nav = document.getElementById('nav__menu');
 bg_menu = document.getElementById('back__menu');
 
 
-function mostrar_menu() {
+const mostrar_menu = () => {
     nav.style.right = "0";
     bg_menu.style.display = "block";
 };
 
-function ocultar_menu() {
+const ocultar_menu = () => {
     nav__menu.style.right = "-380px";
     bg_menu.style.display = "none";
 };
